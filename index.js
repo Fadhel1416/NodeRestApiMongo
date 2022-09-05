@@ -12,7 +12,7 @@ database.once('connected',()=>{
     console.log('database connected');
 })
 const app = express();
-
+//TEST
 app.use(express.json());
 app.use('/api', routes);
 app.listen(3000, () => {
